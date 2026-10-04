@@ -1,10 +1,10 @@
-# ReelShort Web API Docs
+# ReelShort API
 
-Reverse-engineered reference for the **ReelShort web client** (`www.reelshort.com`) — endpoints, request signing, response format, content resolution pipeline and **Arabic (`lang=ar`) localization**.
+Documentation for the **ReelShort web API** — endpoints, request signing, response formats, the content resolution pipeline and **Arabic (`lang=ar`) localization**.
 
-Everything below was validated live against the production web client.
+All examples below are verified against the live API.
 
-> **Unofficial.** Independent reverse-engineering of publicly served client code for research and interoperability purposes. Not affiliated with, endorsed by, or produced by Crazy Maple Studio / ReelShort. Trademarks belong to their respective owners.
+> Community-maintained documentation. Not affiliated with Crazy Maple Studio / ReelShort. Trademarks belong to their respective owners.
 
 ---
 
@@ -247,9 +247,9 @@ So: **UI + titles + tags localize to Arabic; synopsis, detail metadata, audio an
 
 ---
 
-## 7. Security notes
+## 7. Known issues
 
-See [`SECURITY.md`](SECURITY.md) for the entitlement / access-control findings and their remediation.
+Behaviour differences and edge cases worth knowing about, each with a suggested fix: see [`KNOWN_ISSUES.md`](KNOWN_ISSUES.md).
 
 ---
 
@@ -258,7 +258,8 @@ See [`SECURITY.md`](SECURITY.md) for the entitlement / access-control findings a
 ```
 reelshort-api-docs/
 ├── README.md              ← this file
-├── SECURITY.md            ← findings + remediation
+├── KNOWN_ISSUES.md        ← behaviour notes + suggested fixes
+├── LICENSE
 ├── .gitignore
 └── examples/
     ├── client.py          ← signed request helper + decryptor
