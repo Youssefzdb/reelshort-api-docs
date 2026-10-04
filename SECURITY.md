@@ -1,6 +1,6 @@
 # Security Notes
 
-Internal findings raised while documenting the web API, written as **owner-side issues with remediation**.
+Behaviour observed while reverse-engineering the web client, each with a suggested fix. Reported here for transparency — see [Reporting](#reporting).
 
 ---
 
@@ -118,4 +118,4 @@ Fallback to `en` for the tag set, return `code: 0`, and always return `data` as 
 
 ## Reporting
 
-Found something else? Open an issue or contact the security team.
+Found something else? Open an issue here, or report it to the vendor through their official security / bug-bounty channel.

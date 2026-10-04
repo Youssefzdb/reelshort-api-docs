@@ -4,6 +4,8 @@ Reverse-engineered reference for the **ReelShort web client** (`www.reelshort.co
 
 Everything below was validated live against the production web client.
 
+> **Unofficial.** Independent reverse-engineering of publicly served client code for research and interoperability purposes. Not affiliated with, endorsed by, or produced by Crazy Maple Studio / ReelShort. Trademarks belong to their respective owners.
+
 ---
 
 ## 1. Stack & Base URL
